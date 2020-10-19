@@ -9,7 +9,7 @@ namespace Примеры
         static void main(string[] args) // объявление нового метода
         {
             //Abs(double value): возвращает абсолютное значение для аргумента value
-            double result = Math.Abs(-12.4); // 12.4
+           var result = Math.Abs(-12.4); // 12.4
 
             //Acos(double value): возвращает арккосинус value. Параметр value должен иметь значение от -1 до 1
             double result2 = Math.Acos(1); // 0

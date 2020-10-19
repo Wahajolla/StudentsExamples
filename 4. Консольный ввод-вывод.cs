@@ -37,7 +37,7 @@ namespace StudentsExamples
             string name2 = "Брат Витали";
             int age2 = 34;
             double height2 = 1.2;
-            Console.WriteLine("Имя: {0}  Возраст: {2}  Рост: {1}м", name2, height2, age2);
+            Console.WriteLine($"Имя: {0}  Возраст: {2}  Рост: {1}м", name2, height2, age2);
             Console.ReadKey();
 
 

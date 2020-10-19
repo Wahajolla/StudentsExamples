@@ -25,7 +25,7 @@ namespace Примеры
             int[] nums5 = { 1, 2, 3, 5 };
 
             Console.WriteLine(nums5[0]); //Выведет 1
-            Console.WriteLine(nums5[5]); //Будет ошибка IndexOutOfRangeException
+            Console.WriteLine(nums5[4]); //Будет ошибка IndexOutOfRangeException
 
 
             //Цикл foreach
@@ -39,7 +39,7 @@ namespace Примеры
             int[] numbersTest = new int[] { 1, 2, 3, 4, 5 };
             foreach (int i in numbersTest)
             {
-                Console.WriteLine(i); //Выведет все элементы, перебирая их 
+                Console.WriteLine(i);
             }
             for (int i = 0; i < numbersTest.Length; i++)
             {
@@ -92,6 +92,8 @@ namespace Примеры
                 Console.WriteLine();
             }
 
+           
+
             //Перебор зубачтого массива
             int[][] numbersTest2 = new int[3][];
             numbersTest2[0] = new int[] { 1, 2 };
@@ -140,6 +142,21 @@ namespace Примеры
             foreach (int number in arrayExample)
             {
                 Console.Write($"{number} \t");
+            }
+
+            //Создание "рандомайзера"
+            Random rd = new Random();
+
+            //Случайное число от 1 до 50
+            rd.Next(1, 51);
+
+            int[] intArray;
+            string s = Console.ReadLine();
+            string[] array = s.Split(" ");
+            intArray = new int[array.Length];
+            for (int i = 0; i < array.Length; i++)
+            {
+                intArray[i] = Convert.ToInt32(array[i]);
             }
         }
 

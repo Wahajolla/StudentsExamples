@@ -57,6 +57,21 @@ namespace Примеры
 
             int z = select == "+" ? (x + y) : (x - y);
             Console.WriteLine(z);
+
+
+
+
+            Console.Write("Введите 1 тип");
+            string S = Console.ReadLine();
+                
+            Console.Write("Введите 2 тип");
+            int I = Convert.ToInt32( Console.ReadLine());
+
+            Console.Write("Введите 3 тип");
+            float F = Convert.ToSingle(Console.ReadLine());
+
+            Console.Write("Введите 4 тип");
+            double D = Convert.ToDouble(Console.ReadLine());
         }
     }
 }

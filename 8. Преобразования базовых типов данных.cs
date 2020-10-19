@@ -21,6 +21,12 @@ namespace Примеры
             byte a2 = 4;
             byte b2 = (byte) (a2 + 70);
 
+
+            //с = 121 из за усечения старших битов
+            int a = 33;
+            int b = 600;
+            byte c = (byte)(a + b);
+
         }
 
     }

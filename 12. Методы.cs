@@ -14,7 +14,7 @@ namespace Примеры
         //    // тело метода
         //}
 
-        static void Main(string[] args)
+        static void main(string[] args)
         {
             //название_метода(значения_для_параметров_метода);
             Method(); //Метод без параметров
@@ -68,6 +68,23 @@ namespace Примеры
         {
         
         }
+
+
+        //Передача по значению -  метод получает не саму переменную, а ее копию
+        static void Main(string[] args)
+        {
+            Test(10, 15);        // параметры передаются по значению
+            Console.ReadKey();
+        }
+        static int Test(int x, int y)
+        {
+            return x + y;
+        }
+
+        //Сравнение
+
+
+        
 
     }
 
