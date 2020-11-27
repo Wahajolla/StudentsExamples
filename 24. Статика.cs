@@ -8,15 +8,20 @@ namespace Примеры
     {
         public void MakeAction()
         {
+            Console.WriteLine();
             StaticExample.text = "altText";
             StaticExample.Text = "ttteeexxt";
             StaticExample.MakeSmth();
+            StaticExample st1 = new StaticExample();
+            StaticExample st2 = new StaticExample();
             string s = StaticExample.ReturnString();
+
         }
     }
 
     class StaticExample
     {
+
         public static string text = "ttteeexxt";
         public static string Text
         {

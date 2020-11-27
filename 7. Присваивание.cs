@@ -10,6 +10,10 @@ namespace Примеры
         static void Main(string[] args)
         {
 
+            int i = 1;
+
+
+
             //Применение операций присвоения:
             int a = 10;
 

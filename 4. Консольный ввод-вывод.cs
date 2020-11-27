@@ -45,13 +45,13 @@ namespace StudentsExamples
             string name3 = "Брат Витали с другим ростом";
             int age3 = 34;
             double height3 = 1.1231242;
-            Console.WriteLine("Имя: {0}  Возраст: {2}  Рост: {1:f2}м", name3, height3, age3);
+            Console.WriteLine($"Имя: {0}  Возраст: {2}  Рост: {1:f2}м", name3, height3, age3); ; ;
             Console.ReadKey();
 
             //Форматирование с процентами
             string name4 = "брата Витали с другим ростом";
             decimal prettyBoy = 1.46m;
-            Console.WriteLine("Красота {0}  {1:P13}м", name3, prettyBoy);
+            Console.WriteLine($"Красота {0}  {1:P13}м", name3, prettyBoy);
             Console.ReadKey();
 
 
@@ -72,19 +72,19 @@ namespace StudentsExamples
             Console.WriteLine($"Ваша будущая зарплата C# разработчика: {salary}$");
             Console.ReadKey();
             //Еще примеры преобразований 
-          /*Convert.ToBoolean(value)
-            Convert.ToByte(value)
-            Convert.ToChar(value) 
-            Convert.ToDecimal(value)
-            Convert.ToDouble(value)
-            Convert.ToInt16(value)
-            Convert.ToInt32(value)
-            Convert.ToInt64(value)
-            Convert.ToSByte(value)
-            Convert.ToSingle(value)
-            Convert.ToUInt16(value)
-            Convert.ToUInt32(value)
-            Convert.ToUInt64(value)*/
+            /*Convert.ToBoolean(value)
+              Convert.ToByte(value)
+              Convert.ToChar(value) 
+              Convert.ToDecimal(value)
+              Convert.ToDouble(value)
+              Convert.ToInt16(value)
+              Convert.ToInt32(value)
+              Convert.ToInt64(value)
+              Convert.ToSByte(value)
+              Convert.ToSingle(value)
+              Convert.ToUInt16(value)
+              Convert.ToUInt32(value)
+              Convert.ToUInt64(value)*/
 
 
 
@@ -95,7 +95,7 @@ namespace StudentsExamples
 
 
 
-
+            int i = Console.ReadLine();
             //Метод Parse
             Console.Write("Введите желаемый размер зарплаты в миллионах: ");
             int salaryMillion = int.Parse(Console.ReadLine());

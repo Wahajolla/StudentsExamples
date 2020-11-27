@@ -19,6 +19,7 @@ namespace Примеры
                 Console.WriteLine(o);
             }
 
+
             // удаляем первый элемент
             list.RemoveAt(0);
             // переворачиваем список

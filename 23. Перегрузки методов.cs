@@ -32,7 +32,7 @@ namespace Примеры
             double result = a + b;
             Console.WriteLine($"Result is {result}");
         }
-        public void Add(out double a, ref double b)
+        public void Add(double a, ref double b)
         {
             double result = a + b;
             Console.WriteLine($"Result is {result}");

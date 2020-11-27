@@ -10,6 +10,8 @@ namespace Примеры
         {
             Person person = new Person();
             person.Name = "A";
+            string s = person.Name;
+            person.textTest = "a";
             person.NameClosed = "A";
             string a = person.NameClosed;
         }
@@ -17,6 +19,7 @@ namespace Примеры
 
     class Person
     {
+        public string textTest;
         private string name;
         private string nameClosed;
         private int Iq;

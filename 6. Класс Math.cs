@@ -8,6 +8,7 @@ namespace Примеры
     {
         static void main(string[] args) // объявление нового метода
         {
+            double a = Math.Pow(4, 10);
             //Abs(double value): возвращает абсолютное значение для аргумента value
            var result = Math.Abs(-12.4); // 12.4
 

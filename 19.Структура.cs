@@ -14,6 +14,13 @@ namespace Примеры
             {
                 Console.WriteLine($"Name: {name}  Age: {age}");
             }
+
+            
+        }
+
+        void Test()
+        {
+            User user = new User(); 
         }
     }
 }

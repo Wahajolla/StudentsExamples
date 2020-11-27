@@ -150,6 +150,8 @@ namespace Примеры
             //Случайное число от 1 до 50
             rd.Next(1, 51);
 
+            //12 3 4 5
+            //{12,3,4,5}
             int[] intArray;
             string s = Console.ReadLine();
             string[] array = s.Split(" ");
